@@ -44,8 +44,8 @@ body {
   color: var(--color-ink);
   background: var(--color-paper);
   font-family: var(--font-body);
-  font-size: 15px;
-  line-height: 1.65;
+  font-size: 16px;
+  line-height: 1.7;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -210,7 +210,7 @@ select:focus-visible {
 
 .nav__link {
   color: #625c6c;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
   transition: color .2s ease;
 }
@@ -234,7 +234,7 @@ select:focus-visible {
   border: 1px solid transparent;
   border-radius: var(--radius-md);
   cursor: pointer;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
   transition: transform .2s ease, background .2s ease, box-shadow .2s ease, border-color .2s ease;
 }
@@ -306,7 +306,7 @@ select:focus-visible {
 .eyebrow {
   margin: 0 0 var(--space-4);
   color: var(--color-brand);
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 700;
   letter-spacing: 1.2px;
   text-transform: uppercase;
@@ -334,8 +334,8 @@ select:focus-visible {
   max-width: 440px;
   margin: 0 auto var(--space-5);
   color: var(--color-muted);
-  font-size: 14px;
-  line-height: 1.75;
+  font-size: 16px;
+  line-height: 1.7;
 }
 
 .hero__actions {
@@ -347,7 +347,7 @@ select:focus-visible {
 }
 
 .text-link {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
 }
 
@@ -405,14 +405,14 @@ select:focus-visible {
 .hero__proof-copy {
   margin: 0;
   color: var(--color-muted);
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.5;
   text-align: left;
 }
 
 .hero__proof-copy strong {
   color: var(--color-ink);
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .hero__art {
@@ -726,8 +726,8 @@ select:focus-visible {
   align-items: center;
   justify-content: center;
   gap: var(--space-3);
-  color: #88818f;
-  font-size: 9px;
+  color: var(--color-muted);
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: .3px;
   text-align: center;
@@ -769,8 +769,8 @@ select:focus-visible {
   max-width: 390px;
   margin: 0;
   color: var(--color-muted);
-  font-size: 13px;
-  line-height: 1.8;
+  font-size: 15px;
+  line-height: 1.7;
 }
 
 .features__grid {
@@ -818,15 +818,15 @@ select:focus-visible {
 
 .card__title {
   margin: 0 0 var(--space-2);
-  font: 800 16px/1.35 var(--font-heading);
+  font: 800 18px/1.4 var(--font-heading);
   letter-spacing: -.35px;
 }
 
 .card__description,
 .card__text {
   color: var(--color-muted);
-  font-size: 12px;
-  line-height: 1.8;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .card__text {
@@ -859,7 +859,7 @@ select:focus-visible {
 .pricing__description {
   margin: var(--space-3) 0 var(--space-5);
   color: var(--color-muted);
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .billing-switch {
@@ -872,7 +872,7 @@ select:focus-visible {
 
 .billing-switch__label {
   color: var(--color-muted);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
 }
 
@@ -933,7 +933,7 @@ select:focus-visible {
   display: inline-flex;
   align-items: center;
   border-radius: var(--radius-pill);
-  font-size: 9px;
+  font-size: 11px;
   font-weight: 700;
   letter-spacing: .6px;
   text-transform: uppercase;
@@ -953,13 +953,13 @@ select:focus-visible {
 
 .card--price .card__title {
   margin-bottom: var(--space-1);
-  font-size: 17px;
+  font-size: 19px;
 }
 
 .card--price .card__description {
   min-height: 0;
   margin: 0 0 19px;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .card__price {
@@ -970,25 +970,25 @@ select:focus-visible {
 
 .card__price-period {
   color: var(--color-muted);
-  font: 500 11px var(--font-body);
+  font: 500 13px var(--font-body);
   letter-spacing: 0;
 }
 
 .card__note {
   margin: 5px 0 17px;
-  color: #9a939f;
-  font-size: 9px;
+  color: #716b7b;
+  font-size: 11px;
 }
 
 .card--price .btn {
   min-height: 44px;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .card__includes {
   margin: 25px 0 11px;
   color: #726b79;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
 }
 
@@ -1004,7 +1004,7 @@ select:focus-visible {
   position: relative;
   padding-left: 19px;
   color: #625d68;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .card__list li::before {
@@ -1019,7 +1019,7 @@ select:focus-visible {
 .pricing__footnote {
   margin: var(--space-5) 0 0;
   color: var(--color-muted);
-  font-size: 11px;
+  font-size: 13px;
   text-align: center;
 }
 
@@ -1061,7 +1061,7 @@ select:focus-visible {
 .card__quote {
   flex: 1;
   margin: 0 0 20px;
-  font: 600 13px/1.75 var(--font-heading);
+  font: 600 15px/1.7 var(--font-heading);
 }
 
 .card__author {
@@ -1084,8 +1084,8 @@ select:focus-visible {
 .card__avatar--one { background: #b28572; }
 .card__avatar--two { background: #7a69a9; }
 .card__avatar--three { background: #6f9787; }
-.card__author cite { display: block; font-size: 10px; font-style: normal; font-weight: 700; }
-.card__author span { display: block; color: #88818f; font-size: 9px; }
+.card__author cite { display: block; font-size: 12px; font-style: normal; font-weight: 700; }
+.card__author span { display: block; color: #716b7b; font-size: 11px; }
 
 .faq {
   background: var(--color-surface);
@@ -1108,7 +1108,7 @@ select:focus-visible {
 
 .faq__contact {
   color: var(--color-muted);
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .faq__contact a {
@@ -1141,7 +1141,7 @@ select:focus-visible {
   background: transparent;
   cursor: pointer;
   text-align: left;
-  font: 700 12px/1.5 var(--font-heading);
+  font: 700 14px/1.5 var(--font-heading);
 }
 
 .faq__icon {
@@ -1178,8 +1178,8 @@ select:focus-visible {
   overflow: hidden;
   padding-inline: 3px 35px;
   color: var(--color-muted);
-  font-size: 12px;
-  line-height: 1.8;
+  font-size: 14px;
+  line-height: 1.7;
   transition: height .25s ease;
 }
 
@@ -1217,8 +1217,8 @@ select:focus-visible {
   max-width: 390px;
   margin-bottom: 26px;
   color: #c0b9cb;
-  font-size: 13px;
-  line-height: 1.8;
+  font-size: 15px;
+  line-height: 1.7;
 }
 
 .signup__contact {
@@ -1226,8 +1226,8 @@ select:focus-visible {
   align-items: center;
   gap: var(--space-3);
   color: #d8d1e2;
-  font-size: 10px;
-  line-height: 1.65;
+  font-size: 13px;
+  line-height: 1.6;
 }
 
 .signup__icon {
@@ -1254,41 +1254,41 @@ select:focus-visible {
 
 .signup__form-title {
   margin: 0 0 3px;
-  font-size: 17px;
+  font-size: 19px;
   letter-spacing: -.5px;
 }
 
 .signup__form-intro {
   margin: 0;
   color: var(--color-muted);
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .signup__label {
   display: block;
   margin: 13px 0 6px;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
 }
 
 .signup__input,
 .signup__select {
   width: 100%;
-  height: 42px;
+  min-height: 46px;
   padding-inline: 12px;
   border: 1px solid #e6e1ea;
   border-radius: var(--radius-sm);
   color: var(--color-ink);
   background: var(--color-paper);
-  font-size: 11px;
+  font-size: 15px;
 }
 
 .signup__input::placeholder {
-  color: #aaa4af;
+  color: #716b7b;
 }
 
 .signup__select:invalid {
-  color: #aaa4af;
+  color: #716b7b;
 }
 
 .signup__input[aria-invalid="true"],
@@ -1304,7 +1304,7 @@ select:focus-visible {
 .signup__error {
   margin: 4px 0 0;
   color: #b52e48;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.5;
 }
 
@@ -1323,8 +1323,8 @@ select:focus-visible {
   gap: var(--space-2);
   margin: var(--space-4) 0;
   color: #77717d;
-  font-size: 9px;
-  line-height: 1.65;
+  font-size: 12px;
+  line-height: 1.6;
 }
 
 .signup__checkbox {
@@ -1344,7 +1344,7 @@ select:focus-visible {
   min-height: 0;
   margin: 0;
   color: var(--color-positive);
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .signup__status:not(:empty) {
@@ -1370,7 +1370,7 @@ select:focus-visible {
 .footer__brand-copy {
   margin: 14px 0 0;
   color: var(--color-muted);
-  font-size: 10px;
+  font-size: 13px;
   line-height: 1.8;
 }
 
@@ -1383,12 +1383,12 @@ select:focus-visible {
 
 .footer__heading {
   margin: 3px 0 7px;
-  font: 700 10px var(--font-body);
+  font: 700 13px var(--font-body);
 }
 
 .footer__column a {
   color: var(--color-muted);
-  font-size: 10px;
+  font-size: 13px;
   transition: color .2s ease;
 }
 
@@ -1401,7 +1401,7 @@ select:focus-visible {
   align-items: flex-start;
   gap: 10px;
   color: #7b7384;
-  font: 700 11px/1.7 var(--font-heading);
+  font: 700 13px/1.7 var(--font-heading);
 }
 
 .footer__note p {
@@ -1419,8 +1419,8 @@ select:focus-visible {
   gap: var(--space-3);
   padding-top: var(--space-3);
   border-top: 1px solid #eae6ef;
-  color: var(--color-subtle);
-  font-size: 9px;
+  color: #716b7b;
+  font-size: 12px;
 }
 
 .footer__bottom p {
@@ -1501,7 +1501,7 @@ select:focus-visible {
 
   .hero__description {
     margin-inline: 0;
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .hero__actions,
@@ -1541,7 +1541,7 @@ select:focus-visible {
     min-height: 68px;
     justify-content: space-between;
     gap: var(--space-3);
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .trust__message,
@@ -1560,7 +1560,7 @@ select:focus-visible {
   .section-heading__description {
     max-width: 335px;
     margin-bottom: 3px;
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .features__grid {
@@ -1607,7 +1607,7 @@ select:focus-visible {
   }
 
   .faq__question {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .signup {
